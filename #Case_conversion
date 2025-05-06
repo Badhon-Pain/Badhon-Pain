@@ -1,0 +1,14 @@
+//Upper_case_to_Lower_case_conversion
+#include<stdio.h>
+int main ()
+{ 
+char x;
+scanf("%c",&x);
+if(x>='A' && x<='Z') 
+x=x+('a'-'A');
+if(x>='a' && x<='z') x=x-('a'-'A'); 
+printf("%c",x);
+
+return 0;
+}
+
